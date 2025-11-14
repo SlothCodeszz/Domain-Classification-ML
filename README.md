@@ -26,7 +26,7 @@ This project implements a machine learning pipeline to predict domain name prici
 |-------|------------------|----------------|-------------|
 | **Logistic Regression** | 56.0% | 58.0% | +2.0% |
 | **Decision Tree** | 59.0% | 62.0% | +3.0% |
-| **Random Forest** | 61.0% | **65.0%** ✅ | **+4.0%** |
+| **Random Forest** | 61.0% | **65.0%** | **+4.0%** |
 
 ### Best Model: Random Forest (Tuned)
 **Optimal Hyperparameters:**
