@@ -105,3 +105,16 @@ This project implements a machine learning pipeline to predict domain name prici
 - **Issue**: Only structural features (no domain age, backlinks, traffic data).
 - **Impact**: Missing key pricing indicators.
 - **Future Improvement**: Integrate external domain metadata.
+
+## Important Notes
+
+### Data Requirements
+This project uses a domain pricing dataset with 8.7M rows. A **500K sample dataset** is provided in this repository: [`sample_domains.csv`]((https://github.com/SlothCodeszz/Domain-Classification-ML/blob/main/sample_domains.csv))
+
+**Dataset format:**
+- Columns: `Domain` (string), `category` (1-5)
+- Categories: 1=expensive to 5=cheap
+- Maintains original 95.6% class imbalance
+
+### Installation & Usage
+pip install -r requirements.txt
