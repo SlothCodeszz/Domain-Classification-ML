@@ -1,0 +1,15 @@
+# ML Core & Data Processing
+scikit-learn==1.6.1
+pandas==2.2.2
+numpy==2.0.2
+joblib==1.5.2
+
+# Feature Engineering
+tldextract==0.20.0
+
+# Visualisation
+matplotlib==3.10.0
+seaborn==0.13.2
+
+# Jupyter Environment
+ipykernel==6.17.1
